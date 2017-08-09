@@ -1223,6 +1223,9 @@ vendor/firmware/slpi_v2.b14
 vendor/firmware/slpi_v2.cfg
 vendor/firmware/slpi_v2.mdt
 
+# Sprint
+-priv-app/SprintDM/SprintDM.apk
+-priv-app/SprintHM/SprintHM.apk
 # Temporary until I figure out why shims don't work
 lib/liblog.so
 lib64/liblog.so
@@ -1252,6 +1255,19 @@ vendor/firmware/venus.b03
 vendor/firmware/venus.b04
 vendor/firmware/venus.mdt
 
+# Verizon
+-app/VZWAPNLib/VZWAPNLib.apk:app/VZWAPNLib/VZWAPNLib.apk:PRESIGNED
+-app/vzw_msdc_api/vzw_msdc_api.apk:app/vzw_msdc_api/vzw_msdc_api.apk:PRESIGNED
+etc/permissions/com.verizon.apn.xml
+etc/permissions/com.verizon.embms.xml
+etc/permissions/com.verizon.provider.xml
+etc/permissions/qti-vzw-ims-internal.xml
+etc/permissions/vzw_sso_permissions.xml
+-framework/VerizonUnifiedSettings.jar:PRESIGNED
+-priv-app/VZWAPNService/VZWAPNService.apk:priv-app/VZWAPNService/VZWAPNService.apk:PRESIGNED
+-priv-app/VZWAVS/VZWAVS.apk:priv-app/VZWAVS/VZWAVS.apk:PRESIGNED
+-priv-app/VzwLcSilent/VzwLcSilent.apk:priv-app/VzwLcSilent/VzwLcSilent.apk:PRESIGNED
+-priv-app/VzwOmaTrigger/VzwOmaTrigger.apk:priv-app/VzwOmaTrigger/VzwOmaTrigger.apk:PRESIGNED
 # Wifi
 bin/cnss-daemon
 vendor/firmware/wlanmdsp.mbn
