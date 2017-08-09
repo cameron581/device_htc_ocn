@@ -21,7 +21,7 @@ static const char *htc_unlocked_properties =
     "persist.rild.nitz_short_ons_2=\n"
     "persist.rild.nitz_short_ons_3=\n"
     "ril.subscription.types=NV,RUIM\n"
-    "telephony.lteOnCdmaDevice=0\n"
+    "telephony.lteOnCdmaDevice=1\n"
     "persist.radio.fill_eons=1\n"
     "persist.igps.sensor=on\n"
     "persist.radio.apm_sim_not_pwdn=0\n"
@@ -34,5 +34,6 @@ static const char *htc_unlocked_properties =
     "persist.radio.ROTATION_ENABLE=1\n"
     "persist.radio.RATE_ADAPT_ENABLE=1\n"
     "persist.radio.videopause.mode=1\n"
-    "ro.telephony.default_network=9\n"
+    "ro.telephony.default_network=10\n"
+    "DEVICE_PROVISIONED=1\n"
 ;
